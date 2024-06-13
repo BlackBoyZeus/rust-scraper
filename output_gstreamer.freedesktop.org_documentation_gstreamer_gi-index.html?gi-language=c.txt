@@ -1,0 +1,321 @@
+URL: https://gstreamer.freedesktop.org/documentation/gstreamer/gi-index.html?gi-language=c
+Title: Core Library
+Content:
+libgstreamer-1.0
+.so provides all the core GStreamer
+services, including initialization, plugin management and types, as well
+as the object hierarchy that defines elements and bins, along with some
+more specialized elements.
+<b>Subpages:</b>
+
+			<a href="gstreamer/running.html">Running GStreamer Applications</a>
+							– How to run and debug your GStreamer application
+						
+
+			<a href="gstreamer/gst.html">GStreamer</a>
+							– Media library supporting arbitrary formats and filter
+                     graphs.
+						
+
+			<a href="gstreamer/debugutils.html">Debugging utilities</a>
+							– A set of utilities for debugging and development
+						
+
+			<a href="gstreamer/gstallocator.html">GstAllocator</a>
+							– allocate memory blocks
+						
+
+			<a href="gstreamer/gstatomicqueue.html">GstAtomicQueue</a>
+							– An atomic queue implementation
+						
+
+			<a href="gstreamer/gstbin.html">GstBin</a>
+							– Base class and element that can contain other elements
+						
+
+			<a href="gstreamer/gstbuffer.html">GstBuffer</a>
+							– Data-passing buffer type
+						
+
+			<a href="gstreamer/gstbufferlist.html">GstBufferList</a>
+							– Lists of buffers for data-passing
+						
+
+			<a href="gstreamer/gstbufferpool.html">GstBufferPool</a>
+							– Pool for buffers
+						
+
+			<a href="gstreamer/gstbus.html">GstBus</a>
+							– Asynchronous message bus subsystem
+						
+
+			<a href="gstreamer/gstbytearrayinterface.html">gstbytearrayinterface</a>
+						
+
+			<a href="gstreamer/gstcaps.html">GstCaps</a>
+							– Structure describing sets of media formats
+						
+
+			<a href="gstreamer/gstcapsfeatures.html">GstCapsFeatures</a>
+							– A set of features in caps
+						
+
+			<a href="gstreamer/gstchildproxy.html">GstChildProxy</a>
+							– Interface for multi child elements.
+						
+
+			<a href="gstreamer/gstclock.html">GstClock</a>
+							– Abstract class for global clocks
+						
+
+			<a href="gstreamer/gstcompat.html">GstCompat</a>
+							– Deprecated API entries
+						
+
+			<a href="gstreamer/gstcontext.html">GstContext</a>
+							– Lightweight objects to represent element contexts
+						
+
+			<a href="gstreamer/gstcontrolbinding.html">GstControlBinding</a>
+							– attachment for control source sources
+						
+
+			<a href="gstreamer/gstcontrolsource.html">GstControlSource</a>
+							– base class for control source sources
+						
+
+			<a href="gstreamer/gstdatetime.html">GstDateTime</a>
+							– A date, time and timezone structure
+						
+
+			<a href="gstreamer/gstdevice.html">GstDevice</a>
+							– Object representing a device
+						
+
+			<a href="gstreamer/gstdevicemonitor.html">GstDeviceMonitor</a>
+							– A device monitor and prober
+						
+
+			<a href="gstreamer/gstdeviceprovider.html">GstDeviceProvider</a>
+							– A device provider
+						
+
+			<a href="gstreamer/gstdeviceproviderfactory.html">GstDeviceProviderFactory</a>
+							– Create GstDeviceProviders from a factory
+						
+
+			<a href="gstreamer/gstdynamictypefactory.html">GstDynamicTypeFactory</a>
+							– Represents a registered dynamically loadable GType
+						
+
+			<a href="gstreamer/gstelement.html">GstElement</a>
+							– Abstract base class for all pipeline elements
+						
+
+			<a href="gstreamer/gstelementfactory.html">GstElementFactory</a>
+							– Create GstElements from a factory
+						
+
+			<a href="gstreamer/gstevent.html">GstEvent</a>
+							– Structure describing events that are passed up and down
+                     a pipeline
+						
+
+			<a href="gstreamer/gstformat.html">GstFormat</a>
+							– Dynamically register new data formats
+						
+
+			<a href="gstreamer/gsterror.html">GstGError</a>
+							– Categorized error messages
+						
+
+			<a href="gstreamer/gstghostpad.html">GstGhostPad</a>
+							– Pseudo link pads
+						
+
+			<a href="gstreamer/gstinfo.html">GstInfo</a>
+							– Debugging and logging facilities
+						
+
+			<a href="gstreamer/gstiterator.html">GstIterator</a>
+							– Object to retrieve multiple elements in a threadsafe
+ way.
+						
+
+			<a href="gstreamer/gstmemory.html">GstMemory</a>
+							– refcounted wrapper for memory blocks
+						
+
+			<a href="gstreamer/gstmessage.html">GstMessage</a>
+							– Lightweight objects to signal the application of
+                     pipeline events
+						
+
+			<a href="gstreamer/gstmeta.html">GstMeta</a>
+							– Buffer metadata
+						
+
+			<a href="gstreamer/gstminiobject.html">GstMiniObject</a>
+							– Lightweight base class for the GStreamer object hierarchy
+						
+
+			<a href="gstreamer/gstobject.html">GstObject</a>
+							– Base class for the GStreamer object hierarchy
+						
+
+			<a href="gstreamer/gstpad.html">GstPad</a>
+							– Object contained by elements that allows links to
+                     other elements
+						
+
+			<a href="gstreamer/gstpadtemplate.html">GstPadTemplate</a>
+							– Describe the media type of a pad.
+						
+
+			<a href="gstreamer/gstparamspec.html">GstParamSpec</a>
+							– GParamSpec implementations specific
+ to GStreamer
+						
+
+			<a href="gstreamer/gstparse.html">GstParse</a>
+							– Get a pipeline from a text pipeline description
+						
+
+			<a href="gstreamer/gstpipeline.html">GstPipeline</a>
+							– Top-level bin with clocking and bus management
+                       functionality.
+						
+
+			<a href="gstreamer/gstplugin.html">GstPlugin</a>
+							– Container for features loaded from a shared object module
+						
+
+			<a href="gstreamer/gstpluginfeature.html">GstPluginfeature</a>
+							– Base class for contents of a GstPlugin
+						
+
+			<a href="gstreamer/gstpoll.html">GstPoll</a>
+							– Keep track of file descriptors and make it possible
+                     to wait on them in a cancellable way
+						
+
+			<a href="gstreamer/gstpreset.html">GstPreset</a>
+							– helper interface for element presets
+						
+
+			<a href="gstreamer/gstpromise.html">GstPromise</a>
+							– a miniobject for future/promise-like functionality
+						
+
+			<a href="gstreamer/gstprotection.html">GstProtection</a>
+							– Functions and classes to support encrypted streams.
+						
+
+			<a href="gstreamer/gstquark.html">gstquark</a>
+						
+
+			<a href="gstreamer/gstquery.html">GstQuery</a>
+							– Provide functions to create queries, and to set and parse
+                     values in them.
+						
+
+			<a href="gstreamer/gstregistry.html">GstRegistry</a>
+							– Abstract base class for management of #GstPlugin objects
+						
+
+			<a href="gstreamer/gstsample.html">GstSample</a>
+							– A media sample
+						
+
+			<a href="gstreamer/gstsegment.html">GstSegment</a>
+							– Structure describing the configured region of interest
+                     in a media file.
+						
+
+			<a href="gstreamer/gststreamcollection.html">GstStreamCollection</a>
+							– Base class for collection of streams
+						
+
+			<a href="gstreamer/gststreams.html">GstStreams</a>
+							– Base class for stream objects
+						
+
+			<a href="gstreamer/gststructure.html">GstStructure</a>
+							– Generic structure containing fields of names and values
+						
+
+			<a href="gstreamer/gstsystemclock.html">GstSystemClock</a>
+							– Default clock that uses the current system time
+						
+
+			<a href="gstreamer/gsttaglist.html">GstTagList</a>
+							– List of tags and values used to describe media metadata
+						
+
+			<a href="gstreamer/gsttagsetter.html">GstTagsetter</a>
+							– Element interface that allows setting and retrieval
+                     of media metadata
+						
+
+			<a href="gstreamer/gsttask.html">GstTask</a>
+							– Abstraction of GStreamer streaming threads.
+						
+
+			<a href="gstreamer/gsttaskpool.html">GstTaskPool</a>
+							– Pool of GStreamer streaming threads
+						
+
+			<a href="gstreamer/gsttoc.html">GstToc</a>
+							– Generic table of contents support
+						
+
+			<a href="gstreamer/gsttocsetter.html">GstTocSetter</a>
+							– Element interface that allows setting and retrieval
+                     of the TOC
+						
+
+			<a href="gstreamer/gsttracer.html">GstTracer</a>
+							– Tracing base class
+						
+
+			<a href="gstreamer/gsttracerfactory.html">GstTracerFactory</a>
+							– Information about registered tracer functions
+						
+
+			<a href="gstreamer/gsttracerrecord.html">GstTracerRecord</a>
+							– Trace log entry class
+						
+
+			<a href="gstreamer/gsttracerutils.html">gsttracerutils</a>
+						
+
+			<a href="gstreamer/gsttypefind.html">GstTypefind</a>
+							– Stream type detection
+						
+
+			<a href="gstreamer/gsttypefindfactory.html">GstTypeFindFactory</a>
+							– Information about registered typefind functions
+						
+
+			<a href="gstreamer/gsturi.html">GstUri</a>
+							– URI parsing and manipulation.
+						
+
+			<a href="gstreamer/gsturihandler.html">GstUriHandler</a>
+							– Interface to ease URI handling in plugins.
+						
+
+			<a href="gstreamer/gstutils.html">GstUtils</a>
+							– Various utility functions
+						
+
+			<a href="gstreamer/gstvalue.html">GstValue</a>
+							– GValue implementations specific
+ to GStreamer
+						
+
+			<a href="gstreamer/gstvecdeque.html">GstVecDeque</a>
+							– Array based double-ended queue object
+						
+The results of the search are
+-----

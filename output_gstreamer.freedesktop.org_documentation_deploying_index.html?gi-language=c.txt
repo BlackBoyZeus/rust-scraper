@@ -1,0 +1,48 @@
+URL: https://gstreamer.freedesktop.org/documentation/deploying/index.html?gi-language=c
+Title: Deploying your application
+Content:
+Once the development of your application is finished, you will need to
+deploy it to the target machine, usually in the form of a package or
+installer. You have several options here, and, even though this subject
+is not really in the scope of this documentation, we will give some
+hints to try to help you.
+The first choice you need to make is whether you want to deploy your
+application to more than one platform. If yes, then you have the choice
+to use a different packaging system for each platform, or use one that
+can deliver to all platforms simultaneously. This table summarizes the
+pros and cons of each option.
+<strong>Multiplatform packaging system</strong>
+The same system is used to package your application for all platforms
+You only need to develop your packaging system once, and it works for all supported platforms.
+<strong>Single-platform packaging system</strong>
+Your application is packaged using a different system on each platform.
+You can make use of all the advantages each packaging system can offer.
+You need to develop a new packaging system for each supported platform.
+GStreamer itself supports many different platforms (Linux, iOS, Android, Mac
+OS X, Windows, etc) and has been built using a multiplatform packaging
+system named <strong>Cerbero</strong>, which is available for you to use, should you
+choose to go down this route.
+You can install GStreamer in the target machine in the same way
+you installed it in your development machine, you can deploy it
+privately, or you can even customize it before deploying. Here you have
+a few options:
+<strong>Shared GStreamer</strong>
+GStreamer is installed independently of your application, as a prerequisite, in a common place in the target computer (<code>C:\Program Files</code>, for example). You application uses an environment variable to locate it.
+<strong>Private GStreamer with dynamic linking</strong>
+Your application deploys GStreamer to a private folder.
+<strong>Private GStreamer with static linking</strong>
+Your application links statically against GStreamer, so it effectively becomes part of your application binary.
+The following pages give further directions for some of the above
+options.
+<b>Subpages:</b>
+
+			<a href="deploying/mac-osx.html">Mac OS X deployment</a>
+						
+
+			<a href="deploying/windows.html">Windows deployment</a>
+						
+
+			<a href="deploying/multiplatform-using-cerbero.html">Multiplatform deployment using Cerbero</a>
+						
+The results of the search are
+-----

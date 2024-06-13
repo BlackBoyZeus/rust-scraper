@@ -1,0 +1,55 @@
+URL: https://gstreamer.freedesktop.org/documentation/?gi-language=c
+Title: GStreamer: a flexible, fast and multiplatform multimedia framework
+Content:
+
+GStreamer is an extremely powerful and versatile framework for creating
+streaming media applications. Many of the virtues of the GStreamer
+framework come from its modularity: GStreamer can seamlessly incorporate
+new plugin modules. But because modularity and power often come at a
+cost of greater complexity, writing new applications is not always easy.
+    
+<b>Subpages:</b>
+
+			<a href="installing/index.html">Installing GStreamer</a>
+							– Download and install GStreamer
+						
+
+			<a href="tutorials/index.html">Tutorials</a>
+							– Learn how to use GStreamer
+						
+
+			<a href="application-development/index.html">Application Development Manual</a>
+							– Complete walkthrough for building an application using GStreamer
+						
+
+			<a href="plugin-development/index.html">Plugin Writer's Guide</a>
+							– Complete walkthrough for writing your very own GStreamer plugin
+						
+
+			<a href="frequently-asked-questions/index.html">Frequently Asked Questions</a>
+						
+
+			<a href="deploying/index.html">Deploying your application</a>
+							– Deploy GStreamer with your application
+						
+
+			<a href="contribute/index.html">Contributing to GStreamer</a>
+							– Contributing to GStreamer
+						
+
+			<a href="additional/index.html">Additional documentation</a>
+						
+
+			<a href="tools/index.html">Command line tools</a>
+							– Command line tools
+						
+
+			<a href="libs.html">API reference</a>
+							– All the GStreamer libraries from the various components
+						
+
+			<a href="plugins_doc.html">Plugins</a>
+							– All the GStreamer plugins from its various components
+						
+The results of the search are
+-----
